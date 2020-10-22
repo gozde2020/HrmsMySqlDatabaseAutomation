@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1157867,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I create connection to SyntaxHRM database",
+            "match": {
+              "location": "dbStepBatch7.i_create_connection_to_SyntaxHRM_database()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 536724,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I create statement object",
+            "match": {
+              "location": "dbStepBatch7.i_create_statement_object()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-22T03:49:41.554Z",
+        "line": 24,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "syntax-hrm-database-verification;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1610362,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I execute query for jobtitle verification",
+            "match": {
+              "location": "dbStepBatch7.i_execute_query_for_jobtitle_verification()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 535561,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I validate job titles with an external excel file",
+            "match": {
+              "location": "dbStepBatch7.i_validate_job_titles_with_an_external_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 487791,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I close connections",
+            "match": {
+              "location": "dbStepBatch7.i_close_connections()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dbBatch7"
+          },
+          {
+            "name": "@jobTitlesBatch7"
+          }
+        ]
+      }
+    ],
+    "name": "Syntax HRM Database Verification",
+    "description": "",
+    "id": "syntax-hrm-database-verification",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DatabaseBatch7.feature",
+    "tags": [
+      {
+        "name": "@dbBatch7",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
