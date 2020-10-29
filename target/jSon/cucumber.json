@@ -11,33 +11,33 @@
         "steps": [
           {
             "result": {
-              "duration": 1157867,
+              "duration": 1245603,
               "status": "skipped"
             },
             "line": 5,
             "name": "I create connection to SyntaxHRM database",
             "match": {
-              "location": "dbStepBatch7.i_create_connection_to_SyntaxHRM_database()"
+              "location": "dbStepsBatch7.i_create_connection_to_SyntaxHRM_database()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 536724,
+              "duration": 562561,
               "status": "skipped"
             },
             "line": 6,
             "name": "I create statement object",
             "match": {
-              "location": "dbStepBatch7.i_create_statement_object()"
+              "location": "dbStepsBatch7.i_create_statement_object()"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-10-22T03:49:41.554Z",
-        "line": 24,
+        "start_timestamp": "2020-10-22T18:47:46.657Z",
+        "line": 25,
         "name": "Title of your scenario",
         "description": "",
         "id": "syntax-hrm-database-verification;title-of-your-scenario",
@@ -46,37 +46,37 @@
         "steps": [
           {
             "result": {
-              "duration": 1610362,
+              "duration": 3053318,
               "status": "skipped"
             },
-            "line": 25,
+            "line": 26,
             "name": "I execute query for jobtitle verification",
             "match": {
-              "location": "dbStepBatch7.i_execute_query_for_jobtitle_verification()"
+              "location": "dbStepsBatch7.i_execute_query_for_jobtitle_verification()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 535561,
+              "duration": 811841,
               "status": "skipped"
             },
-            "line": 26,
+            "line": 27,
             "name": "I validate job titles with an external excel file",
             "match": {
-              "location": "dbStepBatch7.i_validate_job_titles_with_an_external_excel_file()"
+              "location": "dbStepsBatch7.i_validate_job_titles_with_an_external_excel_file()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 487791,
+              "duration": 879876,
               "status": "skipped"
             },
-            "line": 27,
+            "line": 28,
             "name": "I close connections",
             "match": {
-              "location": "dbStepBatch7.i_close_connections()"
+              "location": "dbStepsBatch7.i_close_connections()"
             },
             "keyword": "And "
           }

@@ -19,7 +19,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "dbStepBatch7.i_create_connection_to_SyntaxHRM_database()"
+  "location": "dbStepsBatch7.i_create_connection_to_SyntaxHRM_database()"
 });
 formatter.result({
   "status": "skipped"
@@ -29,7 +29,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "dbStepBatch7.i_create_statement_object()"
+  "location": "dbStepsBatch7.i_create_statement_object()"
 });
 formatter.result({
   "status": "skipped"
@@ -52,7 +52,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dbStepBatch7.i_execute_query_for_jobtitle_verification()"
+  "location": "dbStepsBatch7.i_execute_query_for_jobtitle_verification()"
 });
 formatter.result({
   "status": "skipped"
@@ -62,7 +62,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dbStepBatch7.i_validate_job_titles_with_an_external_excel_file()"
+  "location": "dbStepsBatch7.i_validate_job_titles_with_an_external_excel_file()"
 });
 formatter.result({
   "status": "skipped"
@@ -72,7 +72,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "dbStepBatch7.i_close_connections()"
+  "location": "dbStepsBatch7.i_close_connections()"
 });
 formatter.result({
   "status": "skipped"

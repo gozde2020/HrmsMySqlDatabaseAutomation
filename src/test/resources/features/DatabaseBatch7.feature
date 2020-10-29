@@ -20,6 +20,7 @@ Feature: Syntax HRM Database Verification
   # if we have more than one row of cucumber datatable without header --> List<List<String>>
   # if we have one row of cucumber datatable with header --> Map<Key, Value>
   # if we have more than one row of cucumber datatable with header --> List<Map<Key, Value>>
+  
   @jobTitlesBatch7
   Scenario: Title of your scenario
     When I execute query for jobtitle verification
